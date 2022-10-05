@@ -3655,7 +3655,7 @@ textarea.form-control-lg {
   padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
   font-size: var(--bs-nav-link-font-size);
   font-weight: var(--bs-nav-link-font-weight);
-  color: var(--bs-nav-link-color);
+  color:var(--bs-yellow);
   text-decoration: none;
   transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
 }
@@ -3825,7 +3825,7 @@ textarea.form-control-lg {
 }
 .navbar-nav .show > .nav-link,
 .navbar-nav .nav-link.active {
-  color: var(--bs-navbar-active-color);
+  color: var(--bs-yellow);
 }
 .navbar-nav .dropdown-menu {
   position: static;
@@ -5845,6 +5845,7 @@ textarea.form-control-lg {
 .carousel-item {
   position: relative;
   display: none;
+  height: 500px;
   float: left;
   width: 100%;
   margin-right: -100%;
